@@ -1,12 +1,12 @@
 const FILE_PATH = process.env.FILE_PATH || './temp'; // 运行文件夹，节点文件存放目录
-const projectPageURL = process.env.URL || '';        // 填写项目域名可开启自动访问保活，非标端口的前缀是http://
+const projectPageURL = process.env.URL || 'https://gzcf.onrender.com';        // 填写项目域名可开启自动访问保活，非标端口的前缀是http://
 const intervalInseconds = process.env.TIME || 120;   // 自动访问间隔时间（120秒）
-const UUID = process.env.UUID || '89c13786-25aa-4520-b2e7-12cd60fb5202';
+const UUID = process.env.UUID || 'aa2b51fd-9aec-4627-ae58-5c7214232f28';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.fcuk.eu.org';      // 哪吒3个变量不全不运行
 const NEZHA_PORT = process.env.NEZHA_PORT || '5555';              // 哪吒端口为{443,8443,2096,2087,2083,2053}其中之一时开启tls
-const NEZHA_KEY = process.env.NEZHA_KEY || '';                   // 哪吒客户端密钥
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '';              // 固定隧道域名，留空即启用临时隧道
-const ARGO_AUTH = process.env.ARGO_AUTH || '';                 // 固定隧道json或token，留空即启用临时隧道
+const NEZHA_KEY = process.env.NEZHA_KEY || 'LzZkEzCvMCnfNVMlg0';                   // 哪吒客户端密钥
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '5.bb.x10.bz';              // 固定隧道域名，留空即启用临时隧道
+const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"4790f1495355843f078e9b1495ca926c","TunnelSecret":"Iv1K6/ElfhzianPUl/O9h4+NAMXV2kvef+eTcmCToOI=","TunnelID":"69b05b3a-4041-4f02-8c44-1fb9993fbf64"}';                 // 固定隧道json或token，留空即启用临时隧道
 const CFIP = process.env.CFIP || 'government.se';             // 优选域名或优选ip
 const CFPORT = process.env.CFPORT || 443;                    // 节点端口
 const NAME = process.env.NAME || 'Vls';                     // 节点名称
